@@ -1,10 +1,15 @@
 \documentclass[twocolumn]{IEEEtran}
+
 % Codificación y fuentes
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[version=4]{mhchem}
+
 % Idioma
 \usepackage[spanish,english]{babel}
+\usepackage{csquotes} % recomendado para biblatex
+
+% Química
+\usepackage[version=4]{mhchem}
 
 % Referencias
 \usepackage[backend=biber,style=apa]{biblatex}
@@ -28,18 +33,16 @@
 
 % Enlaces
 \usepackage{hyperref}
-\usepackage{csquotes}
 
+\title{
+\includegraphics[width=3cm]{images/logoudenar} \\
+Impacto ambiental de la radiación tras accidentes nucleares: dinámica y persistencia de radionúclidos
+}
 
-\title{\includegraphics[width=4cm]{images/logoudenar} \\
-Impacto ambiental de la radiación tras accidentes nucleares: dinámica y persistencia de radionúclidos}
 \author{
-J. D. Tarapues,
-A. Y. Enriquez,
-A. C. Enriquez,
-M. Rosero,
-S. Valencia\\
-\textit{Facultad de Ciencias Exactas y Naturales, Universidad de Nariño}
+\IEEEauthorblockN{J. D. Tarapues, A. Y. Enriquez, A. C. Enriquez, M. Rosero, S. Valencia}
+\IEEEauthorblockA{\textit{Facultad de Ciencias Exactas y Naturales} \\
+\textit{Universidad de Nariño}}
 }
 
 \date{\today}
@@ -50,17 +53,14 @@ S. Valencia\\
 
 \section{Introducción}
 
-El accidente de Chernobyl ocurrió en 1986 y liberó materiales radiactivos al ambiente.
-La ecuación diferencial que modela el decaimiento radeactivo.
+El accidente de Chernóbil ocurrió en 1986 y liberó materiales radiactivos al ambiente. 
+Según \cite{saito2019fukushima}, la evolución de la radiación depende tanto del decaimiento nuclear como de factores ambientales.
 
 \input{chapters/marcoteorico}
-
 \input{chapters/fase1}
-
 \input{chapters/fase2}
-
-\printbibliography
 \input{chapters/preguntas}
 
-\end{document}
+\printbibliography
 
+\end{document}
