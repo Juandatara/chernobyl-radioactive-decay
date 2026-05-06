@@ -6,26 +6,38 @@
 \subsection{¿Qué tipo de datos se requiere?}
 Se requieren datos cualitativos como:
 
-\begin{itemize}
-    \item Tipos de suelos.
-    \item Vías de exposición.
-    \item Tipos de ecosistemas.
-    \item Tipos de radiación.
-    \item Tipos de materiales radiactivos.
-    \item Métodos de mitigación.
-    \item Protocolos de respuesta y recuperación.
-    \item Contexto histórico y tecnológico.
-\end{itemize}
 
-Y datos cuantitativos como:
+\subsection{Definición y operacionalización de variables}
 
-\begin{itemize}
-    \item Eficiencia de los métodos aplicados.
-    \item Niveles de radiación.
-    \item Cantidad de radiación emitida.
-    \item Extensión del área afectada.
-    \item Rapidez del decaimiento radiactivo.
-\end{itemize}
+Con el fin de garantizar la rigurosidad del análisis del decaimiento radiactivo, se establecen las siguientes variables debidamente operacionalizadas:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Variable} & \textbf{Tipo} & \textbf{Naturaleza} & \textbf{Indicador / Unidad} \\
+\hline
+Tiempo ($t$) & Independiente & Cuantitativa continua & Años \\
+\hline
+Actividad radiactiva ($A$) & Dependiente & Cuantitativa continua & Becquerel (Bq) \\
+\hline
+Concentración de Cs-137 & Dependiente & Cuantitativa continua & Bq/m$^2$ \\
+\hline
+Método de mitigación & Independiente & Cualitativa nominal & Tipo de intervención \\
+\hline
+Eficiencia de mitigación & Dependiente & Cuantitativa & Porcentaje de reducción (\%) \\
+\hline
+Tipo de suelo & Control & Cualitativa & Clasificación del suelo \\
+\hline
+Tipo de ecosistema & Control & Cualitativa & Clasificación ecológica \\
+\hline
+Vida media ($T_{1/2}$) & Parámetro & Constante física & Años \\
+\hline
+Constante de decaimiento ($\lambda$) & Parámetro & Constante física & año$^{-1}$ \\
+\hline
+\end{tabular}
+\caption{Variables del modelo considerando mitigación y gestión}
+\end{table}
 
 \subsection{¿Bajo qué enfoques se analiza la realidad?}
 El análisis se realiza bajo un enfoque mixto, combinando información cualitativa y cuantitativa, basado en fuentes especializadas como la IAEA sobre la gestión de accidentes nucleares severos.
