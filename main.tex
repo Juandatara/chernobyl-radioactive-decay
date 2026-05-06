@@ -6,6 +6,10 @@
 % Idioma
 \usepackage[spanish,english]{babel}
 
+% Referencias
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{referencias.bib}
+
 % Matemáticas
 \usepackage{amsmath}
 
@@ -54,6 +58,7 @@ La ecuación diferencial que modela el decaimiento radeactivo.
 
 \input{chapters/fase2}
 
+\printbibliography
 \input{chapters/preguntas}
 
 \end{document}
