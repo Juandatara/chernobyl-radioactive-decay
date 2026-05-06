@@ -1,69 +1,41 @@
-\documentclass[twocolumn]{IEEEtran}
-
-% =========================
+\documentclass[twocolumns]{IEEEtran}
 % Codificación y fuentes
-% =========================
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[version=4]{mhchem}
-
-% =========================
 % Idioma
-% =========================
 \usepackage[spanish,english]{babel}
 
-% =========================
-% Referencias
-% =========================
-\usepackage[backend=biber,style=apa]{biblatex}
-\addbibresource{referencias.bib}
-
-% =========================
 % Matemáticas
-% =========================
 \usepackage{amsmath}
 
-% =========================
 % Gráficos
-% =========================
 \usepackage{graphicx}
 
-% =========================
-% Tablas (COMENTADAS PARA DEBUG)
-% =========================
+% Tablas
 \usepackage{array}
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{tabularx}
+\usepackage{longtable}
 
-% ⚠️ POSIBLES CAUSANTES DEL ERROR
-% \usepackage{longtable}
-% \usepackage{float}
+% Posicionamiento
+\usepackage{float}
 
-% =========================
-% Enlaces (SIEMPRE AL FINAL)
-% =========================
+% Enlaces
 \usepackage{hyperref}
 
-% =========================
-% Título y autores (FORMATO IEEE CORRECTO)
-% =========================
-\title{
-\includegraphics[width=4cm]{images/logoudenar} \\
-Impactos a largo plazo de la radiación en accidentes nucleares
-}
+% Autores
+\usepackage{authblk}
 
-\author{
-J. D. Tarapues,
-A. Y. Enriquez,
-A. C. Enriquez,
-M. Rosero,
-S. Valencia\\
-\IEEEauthorblockA{
-Facultad de Ciencias Exactas y Naturales\\
-Universidad de Nariño
-}
-}
+\title{\includegraphics[width=4cm]{images/logoudenar} \\
+Impactos a largo plazo de la radiación en accidentes nucleares}
+\author[1]{J. D. Tarapues}
+\author[2]{A. Y. Enriquez}
+\author[3]{A. C. Enriquez}
+\author[4]{M. Rosero}
+\author[5]{S. Valecia}
+\affil[1]{Facultad de Ciencias Exactas y Naturales, Universidad de Nariño}
 
 \date{\today}
 
@@ -74,17 +46,14 @@ Universidad de Nariño
 \section{Introducción}
 
 El accidente de Chernobyl ocurrió en 1986 y liberó materiales radiactivos al ambiente.
-
-La ecuación diferencial que modela el decaimiento radiactivo se describe en el marco teórico.
+La ecuación diferencial que modela el decaimiento radeactivo.
 
 \input{chapters/marcoteorico}
-%\input{chapters/fase1}
-%\input{chapters/fase2}
-\input{chapters/preguntas}
 
-% =========================
-% Bibliografía
-% =========================
-\printbibliography
+\input{chapters/fase1}
+
+\input{chapters/fase2}
+
+\input{chapters/preguntas}
 
 \end{document}
