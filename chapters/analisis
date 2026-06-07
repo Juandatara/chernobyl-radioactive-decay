@@ -1,4 +1,4 @@
-\section{Análisis y conclusiones}
+\section{Análisis}
 
 El estudio documental comparativo sobre los accidentes de Chernóbil (1986) y Fukushima (2011) concluye que la gestión de desastres nucleares es un desafío 
 multidimensional donde interactúan la física de los radionúclidos, las condiciones ambientales y la capacidad institucional. 
@@ -14,3 +14,7 @@ Asimismo, se destaca la importancia de los marcos normativos internacionales par
 
 Finalmente, el error humano sigue siendo un factor crítico persistente, por lo que ninguna mejora tecnológica o refinamiento de protocolos es suficiente si
 se ignora que el riesgo de repetición siempre está presente, resaltando que la prevención real nace de una cultura de seguridad rigurosa y transparente.
+
+Las estrategias de mitigación implementadas en cada caso reflejan tanto las circunstancias particulares del accidente como las capacidades institucionales disponibles. En Chernóbil, la respuesta inmediata incluyó el sacrificio de miles de liquidadores expuestos a altas dosis de radiación para contener el incendio del reactor y construir el sarcófago de hormigón que selló el núcleo dañado. A largo plazo, se estableció una zona de exclusión de 30 km y se llevaron a cabo extensos programas de descontaminación del suelo, aunque con resultados limitados debido a la persistencia del $^{137}$Cs. Este radionúclido presenta una elevada movilidad en el sistema suelo-agua y una vida media de aproximadamente 30 años \cite{Konoplev}.
+
+El comportamiento ambiental del $^{137}$Cs resultó determinante en ambos accidentes. Como documenta \cite{Konoplev}, el movimiento del radiocesio en el suelo ocurre de manera lenta y progresiva, descendiendo gradualmente con el paso de los años, aunque con importantes variaciones según el tipo de suelo, el contenido de humedad y las características geográficas de cada región. En Chernóbil, la contaminación afectó principalmente los suelos del interior continental europeo. En Fukushima, por el contrario, la proximidad al océano Pacífico introdujo una dimensión adicional de riesgo debido a la dispersión marina de radionúclidos, con implicaciones significativas para los ecosistemas marinos y la cadena alimentaria.
