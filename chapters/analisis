@@ -1,20 +1,93 @@
-\section{Análisis}
+\section{Análisis y Conclusiones}
 
-El estudio documental comparativo sobre los accidentes de Chernóbil (1986) y Fukushima (2011) concluye que la gestión de desastres nucleares es un desafío 
-multidimensional donde interactúan la física de los radionúclidos, las condiciones ambientales y la capacidad institucional. 
+El estudio documental comparativo sobre los accidentes de Chernóbil (1986) y Fukushima
+Daiichi (2011) evidencia que la gestión de desastres nucleares es un desafío multidimensional
+en el que interactúan la física de los radionúclidos, las condiciones ambientales y la
+capacidad institucional. Ambos eventos, clasificados con el máximo nivel de gravedad (7) en
+la escala INES, comparten un origen común: una evaluación insuficiente del riesgo y una
+preparación inadecuada ante situaciones extremas. Sin embargo, las causas inmediatas,
+las estrategias de mitigación adoptadas y los resultados obtenidos difieren de manera
+significativa.
 
-Se establece que ambos eventos, clasificados con la máxima gravedad en la escala INES, tuvieron su origen en una evaluación insuficiente de los riesgos y una 
-falta de preparación adecuada ante situaciones extremas, ya sea por negligencia operativa y falta de transparencia en el caso soviético, o por la incapacidad 
-de prever desastres naturales simultáneos en el caso Fukushima.
+\subsection{Causas y contexto institucional}
 
-El análisis resalta que la efectividad de las estrategias de mitigación no depende solo de modelos teóricos, sino de comprender las propiedades específicas de 
-elementos como el Yodo-131 y el Cesio-137, y cómo factores externos como la lluvia, el tipo de suelo y la geografía pueden acelerar o retrasar la descontaminación.
+En Chernóbil, el accidente fue consecuencia de una combinación de errores humanos
+durante una prueba de seguridad realizada de forma negligente, en un contexto institucional
+soviético caracterizado por la opacidad y la ausencia de una cultura de seguridad sólida
+\cite{Shlyakhter, Wakeford}. La falta de comunicación oportuna con la comunidad
+internacional agravó las consecuencias del desastre, retrasando la adopción de medidas
+de protección a la población.
 
-Asimismo, se destaca la importancia de los marcos normativos internacionales para fortalecer la respuesta gubernamental y la infraestructura de emergencia.
+En Fukushima, el detonante fue externo: un terremoto de magnitud 9.0 seguido de un
+tsunami que superó con creces las previsiones de diseño de la planta. Si bien Japón
+contaba con marcos regulatorios y planes de contingencia, estos no contemplaban la
+ocurrencia simultánea de múltiples desastres naturales de tal magnitud \cite{Durovic}.
+A diferencia del caso soviético, la respuesta japonesa se caracterizó por una mayor
+transparencia institucional, aunque también estuvo marcada por demoras en la declaración
+formal de emergencia nuclear y en la evacuación de las zonas afectadas.
 
-Finalmente, el error humano sigue siendo un factor crítico persistente, por lo que ninguna mejora tecnológica o refinamiento de protocolos es suficiente si
-se ignora que el riesgo de repetición siempre está presente, resaltando que la prevención real nace de una cultura de seguridad rigurosa y transparente.
+\subsection{Estrategias de mitigación y su efectividad}
 
-Las estrategias de mitigación implementadas en cada caso reflejan tanto las circunstancias particulares del accidente como las capacidades institucionales disponibles. En Chernóbil, la respuesta inmediata incluyó el sacrificio de miles de liquidadores expuestos a altas dosis de radiación para contener el incendio del reactor y construir el sarcófago de hormigón que selló el núcleo dañado. A largo plazo, se estableció una zona de exclusión de 30 km y se llevaron a cabo extensos programas de descontaminación del suelo, aunque con resultados limitados debido a la persistencia del $^{137}$Cs. Este radionúclido presenta una elevada movilidad en el sistema suelo-agua y una vida media de aproximadamente 30 años \cite{Konoplev}.
+Las estrategias de mitigación implementadas en cada caso reflejan tanto las circunstancias
+del accidente como las capacidades institucionales disponibles. En Chernóbil, la respuesta
+inmediata incluyó el sacrificio de miles de liquidadores expuestos a altas dosis de
+radiación para contener el incendio del reactor y construir el sarcófago de concreto que
+selló el núcleo dañado. A largo plazo, se estableció la Zona de Exclusión de 30 km y se
+llevaron a cabo extensos programas de descontaminación del suelo, aunque con resultados
+parciales dado que el $^{137}$Cs presenta una alta movilidad en el entorno suelo-agua y
+una vida media de aproximadamente 30 años \cite{Konoplev}.
 
-El comportamiento ambiental del $^{137}$Cs resultó determinante en ambos accidentes. Como documenta \cite{Konoplev}, el movimiento del radiocesio en el suelo ocurre de manera lenta y progresiva, descendiendo gradualmente con el paso de los años, aunque con importantes variaciones según el tipo de suelo, el contenido de humedad y las características geográficas de cada región. En Chernóbil, la contaminación afectó principalmente los suelos del interior continental europeo. En Fukushima, por el contrario, la proximidad al océano Pacífico introdujo una dimensión adicional de riesgo debido a la dispersión marina de radionúclidos, con implicaciones significativas para los ecosistemas marinos y la cadena alimentaria.
+En Fukushima, la mitigación se centró inicialmente en el enfriamiento de los reactores
+dañados para evitar la fusión total del núcleo, seguido de la instalación de barreras
+subterráneas para contener la filtración de agua radiactiva hacia el océano Pacífico.
+Las autoridades japonesas implementaron zonas de evacuación de radio variable según
+los niveles de contaminación medidos, y se establecieron programas de monitoreo
+radiológico intensivo. No obstante, estudios posteriores reportaron variaciones
+significativas en los niveles de radiación respecto a los modelos teóricos de decaimiento,
+atribuibles a fenómenos climáticos como tifones y lluvias que redistribuyeron los
+radionúclidos en el ambiente \cite{Saito}.
+
+\subsection{Dispersión ambiental y factores físicos}
+
+El comportamiento ambiental del $^{137}$Cs resultó determinante en ambos casos.
+Como documenta \cite{Konoplev}, el movimiento de radiocesio en el suelo ocurre de
+forma lenta y progresiva, descendiendo gradualmente con el paso de los años, pero
+con importantes variaciones según el tipo de suelo, la humedad y la geografía de
+cada región. En Chernóbil, la contaminación afectó principalmente suelos del interior
+continental de Europa; en Fukushima, la proximidad al océano Pacífico introdujo
+una dimensión adicional de riesgo por la dispersión marina de radionúclidos, con
+implicaciones para los ecosistemas acuáticos y la cadena alimentaria.
+
+Estas diferencias ambientales condicionaron directamente la eficacia de las
+estrategias de remediación: los mismos protocolos no producen los mismos resultados
+en ecosistemas distintos, lo que subraya la necesidad de modelos de gestión
+adaptados al contexto geográfico y ecológico específico de cada emplazamiento,
+tal como recogen las variables propuestas en la Tabla~\ref{tab:variables}.
+
+\subsection{Marcos normativos internacionales y lecciones aprendidas}
+
+El accidente de Chernóbil impulsó una revisión profunda de los estándares
+internacionales de seguridad nuclear, incluyendo la adopción de la Convención
+sobre Seguridad Nuclear (1994) y el fortalecimiento del papel de la IAEA como
+organismo de coordinación global. Sin embargo, Fukushima demostró que estos
+avances no fueron suficientes: veinticinco años de mejoras normativas no lograron
+prevenir un accidente de igual gravedad.
+
+Tras Fukushima, la IAEA revisó sus requisitos de preparación y respuesta ante
+emergencias nucleares, reforzando los aspectos relativos a la simultaneidad de
+amenazas, la coordinación interinstitucional y la comunicación pública \cite{IAEAGSG152022}.
+Este ciclo de accidente--revisión--nuevo accidente pone de manifiesto que la
+mejora normativa, aunque necesaria, es insuficiente si no va acompañada de una
+cultura de seguridad genuina en todos los niveles de las organizaciones involucradas.
+
+\subsection{Conclusión}
+
+El error humano emerge como el factor transversal más crítico en ambos desastres:
+ya sea como causa directa ---como en Chernóbil--- o como vulnerabilidad subyacente
+que impidió anticipar y gestionar adecuadamente el riesgo ---como en Fukushima---.
+Ninguna mejora tecnológica o refinamiento de protocolos es suficiente si se
+subestima la posibilidad de que estos eventos vuelvan a ocurrir. La prevención
+real no reside únicamente en los modelos físicos o los marcos regulatorios, sino
+en la construcción de una cultura de seguridad rigurosa, transparente y
+autocrítica, capaz de reconocer sus propios límites antes de que lo haga
+una catástrofe.
