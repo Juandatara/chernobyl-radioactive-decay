@@ -5,9 +5,10 @@ Daiichi (2011) evidencia que la gestión de desastres nucleares es un desafío m
 en el que interactúan la física de los radionúclidos, las condiciones ambientales y la
 capacidad institucional. Ambos eventos, clasificados con el máximo nivel de gravedad (7) en
 la escala INES, comparten un origen común: una evaluación insuficiente del riesgo y una
-preparación inadecuada ante situaciones extremas. Sin embargo, las causas inmediatas,
-las estrategias de mitigación adoptadas y los resultados obtenidos difieren de manera
-significativa.
+preparación inadecuada ante situaciones extremas. Ningún modelo de gestión que privilegie
+solo una de estas dimensiones resulta suficiente ante un accidente de este nivel
+\cite{Imanaka2015}. Sin embargo, las causas inmediatas, las estrategias de mitigación
+adoptadas y los resultados obtenidos difieren de manera significativa.
 
 \subsection{Causas y contexto institucional}
 
@@ -16,40 +17,62 @@ durante una prueba de seguridad realizada de forma negligente, en un contexto in
 soviético caracterizado por la opacidad y la ausencia de una cultura de seguridad sólida
 \cite{Shlyakhter, Wakeford}. La falta de comunicación oportuna con la comunidad
 internacional agravó las consecuencias del desastre, retrasando la adopción de medidas
-de protección a la población.
+de protección a la población. En términos del tipo físico de accidente, Chernóbil constituyó
+una excursión de potencia que destruyó el reactor de forma instantánea \cite{Imanaka2015},
+lo que condicionó tanto la magnitud de la liberación radiactiva como la naturaleza de la
+respuesta institucional requerida.
 
 En Fukushima, el detonante fue externo: un terremoto de magnitud 9.0 seguido de un
-tsunami que superó con creces las previsiones de diseño de la planta. Si bien Japón
-contaba con marcos regulatorios y planes de contingencia, estos no contemplaban la
-ocurrencia simultánea de múltiples desastres naturales de tal magnitud \cite{Durovic}.
-A diferencia del caso soviético, la respuesta japonesa se caracterizó por una mayor
-transparencia institucional, aunque también estuvo marcada por demoras en la declaración
-formal de emergencia nuclear y en la evacuación de las zonas afectadas.
+tsunami que superó con creces las previsiones de diseño de la planta. A diferencia de
+Chernóbil, Fukushima correspondió a una fusión progresiva por calor residual tras la
+pérdida total del suministro eléctrico \cite{Imanaka2015}. Si bien Japón contaba con
+marcos regulatorios y planes de contingencia, estos no contemplaban la ocurrencia
+simultánea de múltiples desastres naturales de tal magnitud \cite{Durovic}. La respuesta
+japonesa se caracterizó por una mayor transparencia institucional respecto al caso
+soviético, aunque también estuvo marcada por demoras en la declaración formal de
+emergencia nuclear y en la evacuación de las zonas afectadas. En ambos casos, la
+subordinación de la seguridad a objetivos operativos y la insuficiencia de los planes ante
+amenazas simultáneas \cite{Durovic, Wakeford} actuaron como condiciones sistémicas
+previas que posibilitaron la magnitud del desastre.
 
 \subsection{Estrategias de mitigación y su efectividad}
 
 Las estrategias de mitigación implementadas en cada caso reflejan tanto las circunstancias
-del accidente como las capacidades institucionales disponibles. En Chernóbil, la respuesta
-inmediata incluyó el sacrificio de miles de liquidadores expuestos a altas dosis de
-radiación para contener el incendio del reactor y construir el sarcófago de concreto que
-selló el núcleo dañado. A largo plazo, se estableció la Zona de Exclusión de 30 km y se
-llevaron a cabo extensos programas de descontaminación del suelo, aunque con resultados
-parciales dado que el $^{137}$Cs presenta una alta movilidad en el entorno suelo-agua y
-una vida media de aproximadamente 30 años \cite{Konoplev}.
+del accidente como las capacidades institucionales disponibles. El tipo físico de accidente
+condicionó directamente estas estrategias: dado que Chernóbil fue una destrucción
+instantánea del reactor, la respuesta inmediata requirió contención física mediante el
+sacrificio de miles de liquidadores expuestos a altas dosis de radiación para contener el
+incendio y construir el sarcófago de concreto que selló el núcleo dañado \cite{Imanaka2015}.
+A largo plazo, se estableció la Zona de Exclusión de 30~km y se llevaron a cabo extensos
+programas de descontaminación del suelo, aunque con resultados parciales dado que el
+$^{137}$Cs presenta una alta movilidad en el entorno suelo-agua y una vida media de
+aproximadamente 30 años \cite{Konoplev}.
 
-En Fukushima, la mitigación se centró inicialmente en el enfriamiento de los reactores
-dañados para evitar la fusión total del núcleo, seguido de la instalación de barreras
+En Fukushima, donde la naturaleza progresiva de la fusión permitía actuar sobre los
+núcleos aún en proceso de deterioro, la mitigación se centró inicialmente en el enfriamiento
+sostenido de los reactores dañados durante días, seguido de la instalación de barreras
 subterráneas para contener la filtración de agua radiactiva hacia el océano Pacífico.
 Las autoridades japonesas implementaron zonas de evacuación de radio variable según
 los niveles de contaminación medidos, y se establecieron programas de monitoreo
 radiológico intensivo. No obstante, estudios posteriores reportaron variaciones
 significativas en los niveles de radiación respecto a los modelos teóricos de decaimiento,
 atribuibles a fenómenos climáticos como tifones y lluvias que redistribuyeron los
-radionúclidos en el ambiente \cite{Saito}.
+radionúclidos en el ambiente \cite{Saito}. Los esfuerzos de reducción volumétrica del suelo
+contaminado, desarrollados durante la década posterior al accidente, ilustran la
+complejidad técnica y logística de la remediación en contextos densamente poblados
+\cite{Kurikami2021}.
 
 \subsection{Dispersión ambiental y factores físicos}
 
 El comportamiento ambiental del $^{137}$Cs resultó determinante en ambos casos.
+Estudios comparativos demuestran que la emisión de $^{137}$Cs en Chernóbil fue
+aproximadamente nueve veces mayor que en Fukushima, y que el área de suelo
+severamente contaminada fue diez veces más extensa \cite{Imanaka2015}. Sin embargo,
+la magnitud de la liberación radiactiva no determina por sí sola la complejidad de la
+remediación: en Fukushima, el $^{137}$Cs mostró una mayor fijación a partículas del
+suelo, lo que redujo su biodisponibilidad pero complicó los procesos de remediación
+por separación granulométrica \cite{Kurikami2021}.
+
 Como documenta \cite{Konoplev}, el movimiento de radiocesio en el suelo ocurre de
 forma lenta y progresiva, descendiendo gradualmente con el paso de los años, pero
 con importantes variaciones según el tipo de suelo, la humedad y la geografía de
@@ -60,9 +83,9 @@ implicaciones para los ecosistemas acuáticos y la cadena alimentaria.
 
 Estas diferencias ambientales condicionaron directamente la eficacia de las
 estrategias de remediación: los mismos protocolos no producen los mismos resultados
-en ecosistemas distintos, lo que subraya la necesidad de modelos de gestión
-adaptados al contexto geográfico y ecológico específico de cada emplazamiento,
-tal como recogen las variables propuestas en la Tabla~\ref{tab:variables}.
+en ecosistemas distintos \cite{Konoplev, Kurikami2021}, lo que subraya la necesidad de
+modelos de gestión adaptados al contexto geográfico y ecológico específico de cada
+emplazamiento, tal como recogen las variables propuestas en la Tabla~\ref{tab:variables}.
 
 \subsection{Marcos normativos internacionales y lecciones aprendidas}
 
@@ -71,23 +94,38 @@ internacionales de seguridad nuclear, incluyendo la adopción de la Convención
 sobre Seguridad Nuclear (1994) y el fortalecimiento del papel de la IAEA como
 organismo de coordinación global. Sin embargo, Fukushima demostró que estos
 avances no fueron suficientes: veinticinco años de mejoras normativas no lograron
-prevenir un accidente de igual gravedad.
+prevenir un accidente de igual gravedad \cite{IAEAGSG152022}.
 
 Tras Fukushima, la IAEA revisó sus requisitos de preparación y respuesta ante
 emergencias nucleares, reforzando los aspectos relativos a la simultaneidad de
-amenazas, la coordinación interinstitucional y la comunicación pública \cite{IAEAGSG152022}.
-Este ciclo de accidente--revisión--nuevo accidente pone de manifiesto que la
-mejora normativa, aunque necesaria, es insuficiente si no va acompañada de una
-cultura de seguridad genuina en todos los niveles de las organizaciones involucradas.
+amenazas, la coordinación interinstitucional y la comunicación pública
+\cite{IAEAGSG152022}. Este ciclo de accidente--revisión--nuevo accidente pone de
+manifiesto que la mejora normativa, aunque necesaria, es insuficiente si no va
+acompañada de una cultura de seguridad genuina en todos los niveles de las
+organizaciones involucradas \cite{Wakeford, Durovic}.
 
 \subsection{Conclusión}
 
-El error humano emerge como el factor transversal más crítico en ambos desastres:
-ya sea como causa directa ---como en Chernóbil--- o como vulnerabilidad subyacente
-que impidió anticipar y gestionar adecuadamente el riesgo ---como en Fukushima---.
-Ninguna mejora tecnológica o refinamiento de protocolos es suficiente si se
-subestima la posibilidad de que estos eventos vuelvan a ocurrir. La prevención
-real no reside únicamente en los modelos físicos o los marcos regulatorios, sino
-en la construcción de una cultura de seguridad rigurosa, transparente y
-autocrítica, capaz de reconocer sus propios límites antes de que lo haga
-una catástrofe.
+El error humano emerge como el factor transversal más crítico en ambos desastres,
+no como una causa aislada sino como el síntoma visible de condiciones sistémicas
+previas: en Chernóbil, la opacidad institucional y la ausencia de una cultura que
+permitiera reportar fallos sin consecuencias para quienes los reportaban
+\cite{Shlyakhter, Wakeford}; en Fukushima, la subordinación de la seguridad a
+objetivos operativos y la insuficiencia de los planes ante amenazas simultáneas
+\cite{Durovic, IAEAGSG152022}. Ya sea como causa directa ---como en el caso
+soviético--- o como vulnerabilidad subyacente que impidió anticipar y gestionar
+adecuadamente el riesgo ---como en el caso japonés---, la subestimación institucional
+del peor escenario posible fue el factor que permitió que estos eventos ocurrieran
+con la gravedad que alcanzaron.
+
+Reconocer la distinción entre tipos de accidente ---excursión de potencia frente a
+fusión por calor residual \cite{Imanaka2015}--- y entre contextos ambientales
+---suelos continentales frente a ecosistemas costeros con distinta capacidad de
+fijación del $^{137}$Cs \cite{Konoplev, Kurikami2021}--- es fundamental para evitar
+la aplicación mecánica de protocolos diseñados para un escenario en situaciones
+de naturaleza distinta. La prevención real no reside únicamente en los modelos
+físicos o los marcos regulatorios, sino en la construcción de una cultura de
+seguridad rigurosa, transparente y autocrítica, capaz de reconocer sus propios
+límites antes de que lo haga una catástrofe.
+
+
